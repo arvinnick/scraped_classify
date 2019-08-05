@@ -35,23 +35,5 @@ for i in glob('/home/mohammad/Documents/projects/scraped_classify/data/*.jpg'):
        print(counter,'  done from:   ',len(file_names))
        counter = counter+1
 
-#a = Image.open('/home/mohammad/Documents/projects/scraped_classify/data/bee101.jpg')
-#a = a.resize((100,100))
-#a = np.asarray(a)
-#a = a[:,:,0]
-
-
-#labels = []
-#for i in glob('/home/mohammad/Documents/projects/scraped_classify/data/*.jpg'):
-#       b.append(i[56:-4])
-#for i in enumerate(b):
-#       d = []
-#       for j in i[1]:
-#              if j.isalpha():
-#                     d.append(j)
-#              else:
-#                     pass
-#       d = ''.join(d)
-#       b[i[0]]=d
                      
                     
